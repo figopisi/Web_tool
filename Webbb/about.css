@@ -1,0 +1,111 @@
+html,*
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(153, 153, 153);
+    margin: 0;
+    padding: 0;
+}
+
+
+.search-form button:hover{
+    background-color: #fff700;
+    color: black;
+    transition: 0.8s;
+}
+
+.navbar {
+    background-color: rgb(70, 70, 70);
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #fff700;
+    color: black;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.navbar .links {
+    margin-left: auto;
+    display: flex;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border-radius: 20px;
+    outline: none;
+    width: 350px;
+    margin-right: 10px;
+    background-color: rgb(149, 149, 149);
+    border-color: black;
+    
+}
+
+.search-form button {
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+    background-color: rgb(149, 149, 149);
+}
+
+.search-form button:hover{
+    background-color: #fff700;
+    color: black;
+    transition: 0.8s;
+}
+
+.Home{
+    margin-left: 720px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a, .links button {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.about-prg {
+    position: absolute;
+    bottom: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 80%; 
+    font-size: 1.5rem;
+}
+
+.about-prg h1, .about-prg h2 {
+    margin: 0;
+}
+
+.Home{
+    margin-left: 720px;
+}
