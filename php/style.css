@@ -1,0 +1,144 @@
+/* Gaya Umum */
+body {
+     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('backgron.png'); 
+    background-size: cover; /* Memastikan gambar menutupi seluruh halaman */
+    background-position: center; /* Memposisikan gambar di tengah */
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #001773f1; /* Biru Tua */
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #00aeff; 
+    transform: scale(1.1); 
+    border-radius: 30px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ffffff; /* Biru Tua */
+}
+
+header p {
+    font-size: 20px;
+    color: #fbff00;
+    font-weight: bolder;
+}
+
+/* Tombol */
+.btn-main {
+    background-color: #003366; /* Biru Tua */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 12px; /* Radius Tombol */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #00aeff; 
+    transform: scale(1.1); 
+}
+
+.btn-main:active {
+    background-color: #0011ff; 
+}
+
+/* Transisi dan Animasi saat Drag (Scroll) */
+body {
+    transition: background-color 0.5s ease;
+}
+
+body:active {
+    background-color: #f0f8ff; /* Warna latar belakang berubah saat di-drag */
+}
+
+/* Formulir Login */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border 0.3s ease;
+}
+
+form input:focus {
+    border-color: #003366; /* Biru Tua */
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff6600; /* Warna Oranye */
+    transform: scale(1.1); /* Efek Hover: Perbesar */
+}
+
+.manga-class{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.manga-class:hover{
+
+    color: rgb(246, 255, 0);
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    transition: 0.8s;
+}
